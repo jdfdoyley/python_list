@@ -16,6 +16,8 @@ What are some important thing to note about Python lists?
 - Python lists can store any object type
 - Python lists are changeable or mutable
 
+## Creating a Python List
+
 How do you create a List?
 
 - there are several ways to create a new list
@@ -49,3 +51,14 @@ How do you create an empty list?
 Is there any other way to create a Python list?
 
 - Yes! List comprehension is another way to create a list but that will be covered later
+
+## Python List Constructor (`list()`)
+
+What is the Python `list()` constructor use for?
+
+- You can use the `list()` constructor to convert other data types to list
+
+  ```python
+  letters = list('abcdef')
+  # Output: ['a', 'b', 'c', 'd', 'e', 'f']
+  ```
