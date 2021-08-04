@@ -26,3 +26,22 @@ print(letters)
 # Convert a tuple to a list
 numbers = list((2, 4, 6, 8))  # Output: [2, 4, 6, 8]
 print(numbers)
+
+# Nested List in Python
+# =====================
+
+author = [
+    "Dan", "Brown",
+    ["Angels & Demons", "The Da Vinci Code", "The Lost Symbol", "Inferno"]
+]
+print(author)
+
+# Access List Items by Index
+# ==========================
+
+# Access the first cat in the list
+cats = ["persian", "bengal", "maine", "siamese", "ragdoll"]
+print(cats[0])  # Output: persian
+
+# Access the third cat in the list
+print(cats[2])  # Output: maine
